@@ -1,0 +1,26 @@
+service:
+  name: carbon-qaqc # Just for example
+  tags:
+    - name: carbon
+environment_variables:
+  default:
+    IA_PROJECT_NAME: sample-python-repo
+    LOG_LEVEL: INFO
+  local: &local
+    IA_ENV: local
+  development: &dev
+    IA_ENV: development
+  local_development:
+    <<: *dev
+  staging: &stage
+    IA_ENV: staging
+  local_staging:
+    <<: *stage
+  production: &prod
+    IA_ENV: production
+  local_production:
+    <<: *prod
+  production_read_only:
+    <<: *prod
+  local_production_read_only:
+    <<: *prod
