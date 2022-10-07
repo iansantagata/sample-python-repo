@@ -1,5 +1,9 @@
 # Sample Python Repository
 
+The purpose of this repository is to provide a sample Python repository for teaching Git and GitHub.
+
+It is meant to be used as a sample only and not meant to have meaningful functionality.
+
 ## Quick Start
 
 1. Run `./tools/bootstrap.sh` to install dependencies and install a virtual environment locally.
