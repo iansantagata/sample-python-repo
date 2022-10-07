@@ -1,2 +1,5 @@
 .DS_Store
 node_modules/
+.pip/
+.python-version
+sample_python_repo.egg-info/
