@@ -4,3 +4,4 @@ node_modules/
 .python-version
 sample_python_repo.egg-info/
 .env
+.idea/
