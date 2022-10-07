@@ -1,0 +1,20 @@
+{
+  "name": "sample-python-repo",
+  "version": "0.0.1",
+  "description": "A sample python repository, meant only to show Git usage and functionality in demo purposes",
+  "main": "index.js",
+  "dependencies": {
+    "@indigo-ag/devtools": "1.12.0"
+  },
+  "resolutions": {
+    "js-yaml": "3.13.1"
+  },
+  "devDependencies": {
+    "@indigo-ag/indigo-scripts": "4.1.1",
+    "husky": "0.14.3"
+  },
+  "scripts": {
+    "precommit": "python tools/precommit_format.py"
+  }
+}
+
